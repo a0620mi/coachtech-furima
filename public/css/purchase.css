@@ -1,0 +1,130 @@
+.purchase-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.purchase-grid {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.item-summary {
+    flex: 1.5;
+}
+
+.product-info {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    width: 150px;
+    height: 150px;
+    background-color: #e0e0e0;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+}
+
+.purchase-section {
+    border-top: 1px solid #333;
+    padding: 30px 0;
+}
+
+.purchase-section:last-child {
+    border-bottom: 1px solid #333;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link-edit {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.address-info {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.zip-code {
+    margin-bottom: 5px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.order-action {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+}
+
+.status-table {
+    border: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.status-row:first-child {
+    border-bottom: 1px solid #333;
+}
+
+.status-label {
+    font-weight: bold;
+}
+
+.btn-purchase-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-purchase-submit:hover {
+    background-color: #e64444;
+}

@@ -1,0 +1,100 @@
+header {
+    background-color: #000000;
+    padding: 15px 0;
+    width: 100%;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.header-logo img {
+    display: block;
+}
+
+.search-form {
+    flex: 1;
+    margin: 0 40px;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.header-nav {
+    flex-shrink: 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link,
+.nav-link-btn {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 0.3s;
+}
+
+.nav-link:hover,
+.nav-link-btn:hover {
+    opacity: 0.7;
+}
+
+.btn-sell {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-sell:hover {
+    background-color: #dddddd;
+}
