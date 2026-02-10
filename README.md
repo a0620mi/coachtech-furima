@@ -1,6 +1,6 @@
 <h1>環境構築</h1>
 <h1>Dockeビルド</h1>
-<div>・git clone </div>
+<div>・git clone git@github.com:a0620mi/coachtech-furima.git</div>
 <div>・./vendor/bin/sail up -d</div>
 <h1>Laravel環境構築</h1>
 <div>・cp .env.example .env</div>
